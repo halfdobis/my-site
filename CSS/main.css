@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, nav {
+  font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (min-width: 300px) {
+  section, header, footer {
+    max-width: 1400px;
+    width: 85%;
+    margin: auto;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  section, header, footer {
+    max-width: 1920px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  header {
+    padding-top: 2em;
+    margin-bottom: 7em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header img {
+    width: 30%;
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  header {
+    padding-top: 3.5em;
+  }
+  header img {
+    width: 10%;
+  }
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  .files {
+    color: #070439;
+  }
+  .files img {
+    margin-bottom: 2.5em;
+  }
+  .files h1, .files p {
+    text-align: center;
+  }
+  .files h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+  }
+  .files p {
+    margin-bottom: 2em;
+  }
+  
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  .files {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 9.5em;
+  }
+  .files article h1 {
+    font-size: 3.2rem;
+    text-align: left;
+    margin-bottom: .5em;
+    margin-top: -1.5em;
+  }
+  .files article p {
+    text-align: left;
+    font-size: 1.6em;
+  }
+  .files img {
+    width: 50%;
+  }
+  .files .get_started {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .files .get_started .email {
+    width: 55%;
+    margin-bottom: 0;
+  }
+  .files .get_started .button {
+    margin-bottom: 0;
+    width: 30%;
+    padding: 1em 0em 1em 0em;
+    margin-left: 1em;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .productive_wrap {
+    background-color: #f6f6fe;
+  }
+  .curves {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .curves .desktop_curve {
+    display: none;
+  }
+  .curves .mobile_curve {
+    width: 120%;
+  }
+  .productive {
+    padding-bottom: 6em;
+  }
+  .productive img {
+    margin-bottom: 4em;
+  }
+  .productive h1, .productive p {
+    color: #070439;
+    margin-bottom: 2em;
+  }
+  .productive h1 {
+    text-align: center;
+  }
+  .productive .how_works {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #3c9f8f;
+    position: relative;
+    margin-bottom: 4em;
+  }
+  .productive .how_works::before {
+    content: "";
+    position: absolute;
+    width: 55%;
+    height: 10%;
+    bottom: -15%;
+    left: 22%;
+    background-color: #3c9f8f;
+  }
+  .productive .how_works img {
+    width: 1.5rem;
+    margin-bottom: 0;
+    margin-left: .5em;
+  }
+  .productive .twitter {
+    background-color: white;
+    padding: 2em;
+    -webkit-box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.25);
+  }
+  .productive .twitter p, .productive .twitter h1 {
+    margin: 0;
+    text-align: start;
+  }
+  .productive .twitter p {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+  }
+  .productive .twitter img {
+    width: 1rem;
+    margin-bottom: 0;
+  }
+  .productive .twitter .user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .productive .twitter .user img {
+    width: 2.5rem;
+    border-radius: 50%;
+  }
+  .productive .twitter .user h1 {
+    font-size: 1rem;
+  }
+  .productive .twitter .user p {
+    margin-bottom: 0;
+  }
+  .productive .twitter .user h1, .productive .twitter .user p {
+    margin-left: .5rem;
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  .curves .mobile_curve {
+    display: none;
+  }
+  .curves .desktop_curve {
+    display: block;
+  }
+  .productive_wrap {
+    padding-top: 5em;
+    padding-bottom: 3.5em;
+  }
+  .productive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .productive article {
+    width: 54%;
+    margin-top: -4em;
+  }
+  .productive article h1, .productive article p {
+    text-align: left;
+  }
+  .productive article h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1em;
+  }
+  .productive article p {
+    font-size: 1.3rem;
+    width: 75%;
+  }
+  .productive article .how_works {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .productive article .how_works::before {
+    left: 0;
+    bottom: -25%;
+    width: 31.5%;
+  }
+  .productive img {
+    width: 46%;
+  }
+  .productive .twitter {
+    width: 45%;
+  }
+  .productive .twitter p {
+    font-size: 1rem;
+    width: 95%;
+    margin-bottom: 1.5em;
+  }
+  .productive .twitter .user {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .productive .twitter .user img {
+    width: 3rem;
+  }
+  .productive .twitter .user .user_data p {
+    width: 100%;
+    font-size: .8em;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .access_wrap {
+    background-color: #585989;
+  }
+  .access {
+    padding-top: 3em;
+    padding-bottom: 4.5em;
+    color: #f6f6fe;
+    text-align: center;
+  }
+  .access h1, .access p {
+    margin-bottom: 1.5em;
+  }
+  .access .get_started .email {
+    background-color: #f6f6fe;
+    color: black;
+    text-align: start;
+    padding: .5em 5em .5em .5em;
+    border-radius: .25em;
+    margin-bottom: .5em;
+    
+  }
+  .access .get_started .email p {
+    margin: 0;
+  }
+  .access .get_started .button_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #3065f8;
+    color: #f6f6fe;
+    width: 100%;
+    padding: .5rem 0 .5rem 0;
+    border-radius: .25rem;
+    margin-bottom: 7.5rem;
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  .access_wrap {
+    padding-top: 4em;
+    padding-bottom: 2.5em;
+  }
+  .access {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .access .get_started {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .access .get_started .email, .access .get_started .button {
+    -webkit-box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.25);
+  }
+  .access .get_started .email {
+    width: 70%;
+    padding: .8em 0em .8em 1em;
+    margin-bottom: 1.3em;
+  }
+  
+  .access article {
+    width: 50%;
+  }
+  .access article h1, .access article p {
+    text-align: left;
+  }
+  .access article h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+  .access article p {
+    width: 75%;
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .contact_wrap {
+    background-color: #070439;
+    color: #f6f6fe;
+  }
+  .contact_wrap .contact {
+    padding-top: 4em;
+    padding-bottom: 2em;
+  }
+  .contact_wrap .contact .logo {
+    fill: #f6f6fe;
+    margin-bottom: 2em;
+    width: 12rem;
+  }
+  .contact_wrap .contact .social_media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .contact_wrap .contact .social_media img {
+    width: 2rem;
+    margin: 0 .4em 0 .4em;
+  }
+  .contact_wrap .contact_part {
+    margin-bottom: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact_wrap .contact_part img {
+    width: 1.5rem;
+    margin-bottom: 0;
+    margin-right: 1em;
+  }
+  .contact_wrap .contact_part p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: .5em;
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  .contact_wrap {
+    padding-top: 5em;
+    padding-bottom: 3em;
+    margin-left: -18.8%;
+  }
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px !important;
+    width: 60%;
+  }
+  .contact .contact_part p {
+    margin-bottom: 0.5em;
+  }
+  .contact .contact_part:nth-child(2), .contact .contact_part:nth-child(3) {
+    margin-top: 5em;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .contact .contact_part:nth-child(3) {
+    margin-bottom: 4.35em;
+  }
+  .contact .social_media {
+    margin-top: 5em;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  footer {
+    padding: 1em 0em 1em 0em;
+    text-align: center;
+  }
+  footer a {
+    text-decoration: none;
+    color: #3c9f8f;
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+/*# sourceMappingURL=main.css.map */
